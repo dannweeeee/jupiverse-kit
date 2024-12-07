@@ -1,0 +1,53 @@
+{
+  "name": "jupiverse-kit",
+  "version": "1.0.0",
+  "description": "A lightweight scalable SDK for all things Jupiter on Solana",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "clean": "rm -rf dist",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "token",
+    "trading",
+    "crypto",
+    "jupiter",
+    "swap",
+    "sdk"
+  ],
+  "author": "dannweeeee",
+  "license": "MIT",
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.3.11",
+    "@solana/web3.js": "^1.95.8",
+    "bs58": "^6.0.0",
+    "cross-fetch": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  },
+  "peerDependencies": {
+    "@solana/web3.js": "^1.95.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannweeeee/jupiverse-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dannweeeee/jupiverse-kit/issues"
+  },
+  "homepage": "https://github.com/dannweeeee/jupiverse-kit#readme"
+}
