@@ -2,6 +2,8 @@
 
 A lightweight TypeScript SDK for interacting with all things Jupiter on Solana. This SDK provides an easy-to-use interface for developers to perform all things Jupiter.
 
+Created and maintained by [Dann](https://github.com/dannweeeee)
+
 ## Features
 
 - Jupiter V6 Swap API Service
