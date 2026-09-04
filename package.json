@@ -18,12 +18,12 @@
   },
   "scripts": {
     "copy-assets": "cp -r src/assets dist/",
-    "build": "rollup -c && cp -r src/assets dist/",
+    "build": "rollup -c && tsc --emitDeclarationOnly && cp -r src/assets dist/",
     "dev": "rollup -c -w",
     "dev:web": "pnpm --filter web dev",
     "build:web": "pnpm --filter web build",
     "clean": "rimraf dist",
-    "prepare": "rimraf dist && rollup -c && cp -r src/assets dist/",
+    "prepare": "rimraf dist && rollup -c && tsc --emitDeclarationOnly && cp -r src/assets dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "sideEffects": false,

@@ -93,8 +93,7 @@ export default function WidgetTerminalDemo({
         rpcUrl={process.env.NEXT_PUBLIC_RPC_URL}
         widgetPosition={position}
         widgetSize="default"
-        onSuccess={({ txid, swapResult }) => {
-          console.log("Swap successful:", txid);
+        onSuccess={({ txid }) => {
           toast.success("Swap successful: " + txid);
         }}
         onSwapError={({ error }) => {
