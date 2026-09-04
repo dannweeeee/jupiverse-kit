@@ -16,7 +16,21 @@ NPM Package: https://www.npmjs.com/package/jupiverse-kit
 ## Installation
 
 ```bash
+pnpm add jupiverse-kit
+```
+
+```bash
 npm install jupiverse-kit
+```
+
+## Local development
+
+This repository is a pnpm workspace (SDK at the root, docs site in `web/`).
+
+```bash
+pnpm install
+pnpm build
+pnpm dev:web
 ```
 
 ## Styling Setup
@@ -36,8 +50,9 @@ Refer to the [web](https://github.com/dannweeeee/jupiverse-kit/tree/main/web) ex
 ## Requirements
 
 - React && React DOM 16.8.0 or later
-- @solana/web3.js 1.0.0 or later
+- @solana/web3.js 1.91.3 or later
 - Node 20.18.0 or later
+- pnpm 10 or later (for local development)
 
 ## Contributions
 

@@ -56,10 +56,10 @@ export const useAllWallets = (
               relayUrl: "wss://relay.walletconnect.com",
               projectId: walletConnectProjectId,
               metadata: {
-                name: metadata?.name,
-                description: metadata?.description,
-                url: metadata?.url,
-                icons: metadata?.iconUrls,
+                name: metadata?.name || "",
+                description: metadata?.description || "",
+                url: metadata?.url || "",
+                icons: metadata?.iconUrls || [],
               },
             },
           });

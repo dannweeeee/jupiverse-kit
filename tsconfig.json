@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2018",
+    "target": "ES2020",
     "module": "esnext",
-    "lib": ["dom", "esnext"],
+    "lib": ["dom", "ES2020"],
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
