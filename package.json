@@ -14,11 +14,9 @@
   ],
   "packageManager": "pnpm@10.28.1",
   "engines": {
-    "node": ">=20.18.0",
-    "pnpm": ">=10"
+    "node": ">=20.18.0"
   },
   "scripts": {
-    "preinstall": "node -e \"if(!/pnpm/.test(process.env.npm_config_user_agent||'')){console.error('This repository uses pnpm. Run: pnpm install');process.exit(1)}\"",
     "copy-assets": "cp -r src/assets dist/",
     "build": "rollup -c && cp -r src/assets dist/",
     "dev": "rollup -c -w",

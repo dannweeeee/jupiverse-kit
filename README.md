@@ -23,16 +23,6 @@ pnpm add jupiverse-kit
 npm install jupiverse-kit
 ```
 
-## Local development
-
-This repository is a pnpm workspace (SDK at the root, docs site in `web/`).
-
-```bash
-pnpm install
-pnpm build
-pnpm dev:web
-```
-
 ## Styling Setup
 
 On top of using your own CSS framework, the SDK also mainly uses Tailwind CSS for styling. Follow this step to set up styling in your project:
@@ -52,7 +42,6 @@ Refer to the [web](https://github.com/dannweeeee/jupiverse-kit/tree/main/web) ex
 - React && React DOM 16.8.0 or later
 - @solana/web3.js 1.91.3 or later
 - Node 20.18.0 or later
-- pnpm 10 or later (for local development)
 
 ## Contributions
 

@@ -34,6 +34,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# npm leftovers — this repo uses pnpm
 package-lock.json
 yarn.lock

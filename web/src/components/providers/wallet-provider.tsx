@@ -9,7 +9,7 @@ export function WalletProvider({ children }: { children: React.ReactNode }) {
   return (
     <JupiverseKitProvider
       endpoint={
-        process.env.NEXT_PUBLIC_RPC_URL ||
+        process.env.NEXT_PUBLIC_RPC_URL ??
         "https://api.mainnet-beta.solana.com"
       }
       theme={theme as "light" | "dark" | "jupiter"}

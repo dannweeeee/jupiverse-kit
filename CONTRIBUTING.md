@@ -65,15 +65,13 @@ Ready to contribute code? Here's how:
 
 ## Development Guidelines
 
-This repository uses **pnpm** as the only package manager. From the repo root:
+From the repo root:
 
 ```bash
 pnpm install
 pnpm build
 pnpm dev:web
 ```
-
-Do not use npm or yarn — they will create conflicting lockfiles.
 
 To maintain code quality and consistency:
 
