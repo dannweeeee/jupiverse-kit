@@ -23,8 +23,6 @@ overrides:
   ws@8: 8.21.3
   zod@3: 3.25.76
 
-packageExtensionsChecksum: sha256-nCzZc9WSreyldxaoxBlqNM5bTn2vvy+sOB5VcRgRLNY=
-
 importers:
 
   .:
@@ -2169,9 +2167,6 @@ packages:
     peerDependencies:
       '@solana/web3.js': ^1.98.4
       react-native: '>0.74'
-    peerDependenciesMeta:
-      react-native:
-        optional: true
 
   '@solana-mobile/wallet-standard-mobile@0.4.0':
     resolution: {integrity: sha512-EhqD4EB+h+jKDiomm5TDEvQBd7RsPSNR1RMUGeKiBDtQVbLgrg/mNqPnULJjX4uq800ykbGFWbd6l/tK6oedhQ==}

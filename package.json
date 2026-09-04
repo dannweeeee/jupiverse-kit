@@ -117,15 +117,6 @@
         "react-native"
       ]
     },
-    "packageExtensions": {
-      "@solana-mobile/wallet-adapter-mobile": {
-        "peerDependenciesMeta": {
-          "react-native": {
-            "optional": true
-          }
-        }
-      }
-    },
     "onlyBuiltDependencies": [
       "bigint-buffer",
       "blake-hash",
