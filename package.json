@@ -46,6 +46,9 @@
     "@jup-ag/wallet-adapter": "^0.2.2",
     "@radix-ui/colors": "^3.0.0",
     "@radix-ui/react-dialog": "^1.1.4",
+    "@reown/appkit": "^1.8.23",
+    "@reown/appkit-adapter-solana": "^1.8.23",
+    "@reown/appkit-wallet-button": "^1.8.23",
     "@solana/spl-token": "^0.4.9",
     "@solana/wallet-adapter-base": "^0.9.23",
     "@solana/wallet-adapter-react": "^0.15.35",
@@ -107,6 +110,21 @@
       "uuid@10": "11.1.1",
       "ws@8": "8.21.3",
       "zod@3": "3.25.76"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@react-native-async-storage/async-storage",
+        "react-native"
+      ]
+    },
+    "packageExtensions": {
+      "@solana-mobile/wallet-adapter-mobile": {
+        "peerDependenciesMeta": {
+          "react-native": {
+            "optional": true
+          }
+        }
+      }
     },
     "onlyBuiltDependencies": [
       "bigint-buffer",
