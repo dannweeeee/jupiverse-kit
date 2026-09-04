@@ -5,8 +5,7 @@ export default function IntegratedTerminalDemo() {
   return (
       <IntegratedTerminal
         rpcUrl={process.env.NEXT_PUBLIC_RPC_URL}
-        onSuccess={({ txid, swapResult }) => {
-          console.log("Swap successful:", txid);
+        onSuccess={({ txid }) => {
           toast.success("Swap successful: " + txid);
         }}
         onSwapError={({ error }) => {

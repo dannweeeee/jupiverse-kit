@@ -3,4 +3,11 @@ dist/
 node_modules/
 test/
 .env
+.env*.local
+.DS_Store
 package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

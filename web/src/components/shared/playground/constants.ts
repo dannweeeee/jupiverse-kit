@@ -126,7 +126,7 @@ const IntegratedTerminalDemo = () => {
     <div className="min-h-screen w-full flex items-center justify-center">
        <IntegratedTerminal
           rpcUrl={process.env.NEXT_PUBLIC_RPC_URL}
-          onSuccess={({ txid, swapResult }) => {
+          onSuccess={({ txid }) => {
             toast.success("Swap successful: " + txid);
           }}
           onSwapError={({ error }) => {
@@ -154,7 +154,7 @@ const WidgetTerminalDemo = () => {
         rpcUrl={process.env.NEXT_PUBLIC_RPC_URL}
         widgetPosition={position}
         widgetSize="default"
-        onSuccess={({ txid, swapResult }) => {
+        onSuccess={({ txid }) => {
           toast.success("Swap successful: " + txid);
         }}
         onSwapError={({ error }) => {
@@ -175,7 +175,7 @@ const ModalTerminalDemo = () => {
           rpcUrl={process.env.NEXT_PUBLIC_RPC_URL}
           buttonText="Launch Modal Terminal"
           buttonClassName="bg-black/10 dark:bg-white/10 hover:bg-black/20 dark:hover:bg-white/20 rounded-3xl flex items-center justify-center w-full sm:w-[200px] md:w-[250px] h-[100px] relative mt-6"
-          onSuccess={({ txid, swapResult }) => {
+          onSuccess={({ txid }) => {
             toast.success("Swap successful: " + txid);
           }}
           onSwapError={({ error }) => {

@@ -75,7 +75,9 @@ export default {
     typescript({
       declaration: true,
       declarationDir: './dist',
-      rootDir: './src'
+      rootDir: './src',
+      include: ['src/**/*.ts', 'src/**/*.tsx'],
+      exclude: ['node_modules/**', 'dist/**'],
     })
   ],
   external

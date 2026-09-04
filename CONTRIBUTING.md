@@ -65,6 +65,14 @@ Ready to contribute code? Here's how:
 
 ## Development Guidelines
 
+From the repo root:
+
+```bash
+pnpm install
+pnpm build
+pnpm dev:web
+```
+
 To maintain code quality and consistency:
 
 - Write clean, typed code using TypeScript
@@ -74,6 +82,6 @@ To maintain code quality and consistency:
 - Maintain compatibility with peer dependencies:
   - React ≥ 16.8.0
   - React DOM ≥ 16.8.0
-  - @solana/web3.js ≥ 1.0.0
+  - @solana/web3.js ≥ 1.91.3
 - Follow existing code style and formatting conventions
 - Include tests for new functionality where applicable
