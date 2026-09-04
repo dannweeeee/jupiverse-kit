@@ -89,11 +89,31 @@
     "react-dom": ">=16.8.0"
   },
   "pnpm": {
+    "overrides": {
+      "axios": "1.20.0",
+      "bigint-buffer": "npm:four-flap-bigint-buffer@1.1.6",
+      "bn.js@5": "5.2.5",
+      "decode-uri-component": "0.5.0",
+      "elliptic": "npm:@soatok/elliptic-to-noble",
+      "lodash": "4.18.1",
+      "next": "15.5.25",
+      "node-fetch@2": "2.7.0",
+      "postcss": "8.5.28",
+      "prismjs": "1.30.0",
+      "protobufjs": "7.6.6",
+      "toml": "4.3.0",
+      "uuid@8": "11.1.1",
+      "uuid@9": "11.1.1",
+      "uuid@10": "11.1.1",
+      "ws@8": "8.21.3",
+      "zod@3": "3.25.76"
+    },
     "onlyBuiltDependencies": [
       "bigint-buffer",
       "blake-hash",
       "bufferutil",
       "esbuild",
+      "four-flap-bigint-buffer",
       "protobufjs",
       "sharp",
       "tiny-secp256k1",
@@ -103,6 +123,7 @@
     ],
     "ignoredBuiltDependencies": [
       "@reown/appkit",
+      "@soatok/elliptic-to-noble",
       "@stellar/stellar-sdk"
     ]
   }
